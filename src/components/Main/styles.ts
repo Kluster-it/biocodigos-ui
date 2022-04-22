@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background-color: #FFF;
+  color: #AAD047;
   width: 100%;
   height: 100%;
   display: flex;
@@ -28,5 +28,5 @@ export const Description = styled.h2`
 
 export const Illustration = styled.img`
   margin-top: 3rem;
-  width: min(30rem, 100%);
+  width: min(60rem, 100%);
 `
