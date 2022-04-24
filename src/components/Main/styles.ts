@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.main`
   background-color: #fdfdfd;
-  color: #aad047;
+  color: #ec2790;
   width: 100%;
   height: 100%;
   display: flex;

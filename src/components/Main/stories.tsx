@@ -5,8 +5,8 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'title default',
-    description: 'description default'
+    Title: 'Title default',
+    Description: 'Description default'
   }
 } as Meta
 
@@ -14,6 +14,6 @@ export const Basic: Story = (args) => <Main {...args} />
 
 export const Extra: Story = (args) => <Main {...args} />
 Extra.args = {
-  title: 'Kluser Tecnologia',
-  description: 'JavaScript'
+  Title: 'Kluser Tecnologia',
+  Description: 'JavaScript'
 }
