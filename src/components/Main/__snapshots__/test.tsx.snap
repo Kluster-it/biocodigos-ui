@@ -2,7 +2,7 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
-  background-color: #fff;
+  background-color: #fdfdfd;
   color: #aad047;
   width: 100%;
   height: 100%;
@@ -48,7 +48,7 @@ exports[`<Main /> should render the heading 1`] = `
   class="c0"
 >
   <img
-    alt="Terapia de TODOS - O maior clube de descontos terapêuticos do Brasil"
+    alt="Terapia de TODOS - O maior e melhor clube de descontos terapêuticos do Brasil"
     class="c1"
     src="/img/terapia-de-todos.png"
   />

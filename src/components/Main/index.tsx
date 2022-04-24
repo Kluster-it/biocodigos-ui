@@ -7,7 +7,7 @@ const Main = ({
   <S.Wrapper>
     <S.Logo
       src="/img/terapia-de-todos.png"
-      alt="Terapia de TODOS - O maior clube de descontos terapêuticos do Brasil"
+      alt="Terapia de TODOS - O maior e melhor clube de descontos terapêuticos do Brasil"
     />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
