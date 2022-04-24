@@ -1,19 +1,19 @@
 import * as S from './styles'
 
 const Main = ({
-  title = 'Bio-Codigos - Terapias Integrativas',
+  title = 'Biocódigos - Terapias Integrativas',
   description = 'Terapia de TODOS - O maior clube de descontos terapêuticos do Brasil'
 }) => (
   <S.Wrapper>
     <S.Logo
       src="/img/terapia-de-todos.png"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
+      alt="Terapia de TODOS - O maior clube de descontos terapêuticos do Brasil"
     />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration
       src="/img/teraphy-banner.jpg"
-      alt="imagem de um desenvolvedor em frente a uma tela com códigos"
+      alt="imagem ilustrativa de uma pessoa em consulta de terapia"
     />
   </S.Wrapper>
 )

@@ -7,7 +7,9 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /react avançado/i })
+      screen.getByRole('heading', {
+        name: /Biocódigos - Terapias Integrativas/i
+      })
     ).toBeInTheDocument()
     expect(container.firstChild).toMatchSnapshot()
   })
@@ -16,7 +18,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(container.firstChild).toHaveStyle({
-      'background-color': '#06092b'
+      'background-color': '#fff'
     })
   })
 })
